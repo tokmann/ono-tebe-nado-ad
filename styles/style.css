@@ -14,6 +14,7 @@
   display: flex;
   gap: 32px;
   list-style: circle;
+  padding-bottom: 3px;
 }
 
 .header__links-list-item_no-bullit {
@@ -31,7 +32,7 @@
 
 .header__logo {
   display: block;
-  width: 148px;
+  width: 140px;
 }
 
 .header__logo-image {
@@ -44,6 +45,7 @@
   font-size: 18px;
   line-height: 1.35;
   text-underline-offset: 4px;
+  padding-right: 35px;
 }
 
 /* Обложка */
@@ -67,7 +69,7 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -83,44 +85,47 @@
 .aligned-text_center {
   text-align: center;
   line-height: 1;
+  padding-left: 30px;
 }
 
 .aligned-text_right {
-  text-align: right;
   line-height: 1;
+  padding-top: 10px;
+  padding-left: 615px;
 }
 
 .cover__description {
-  position: relative;
-  z-index: 2;
   display: flex;
-  justify-content: end;
   align-items: center;
-  gap: 78px;
-  margin-top: 135px;
+  justify-content: space-between;
+  z-index: 2;
+  margin-top: 110px;
 }
 
 .cover__description-text {
-  color: #fff;
-  font-size: 22px;
-  line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 18px;
+  letter-spacing: 0px;
+  word-spacing: 18.5px;
+  font-size: 22px;
+  line-height: 28px;
+  color: white;
+  z-index: 2;
 }
 
 .bet-button {
-  border: 1px solid #fff;
-  padding: 12px 32px;
-  color: #fff;
-  font-size: 22px;
-  text-transform: uppercase;
   background: transparent;
+  border: 1px solid white;
+  padding: 12px 32px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
   cursor: pointer;
+  z-index: 2;
 }
 
 /* Секция с карточками */
 .lots {
-  padding: 180px 25px;
+  padding: 180px 25px 150px 25px;
 }
 
 .lots__heading {
@@ -204,13 +209,14 @@
 .about {
   display: grid;
   grid-template-columns: 350px 1fr;
-  gap: 25px;
+  gap: 10px;
   padding: 0 25px 180px;
 }
 
 .about__column {
   display: flex;
   flex-direction: column;
+  padding-right: 10px;
 }
 
 .about__logo {
@@ -229,7 +235,7 @@
 }
 
 .about__title {
-  margin: 100px 0;
+  margin: 105px 0 100px 0;
   font-size: 40px;
   text-transform: uppercase;
 }
