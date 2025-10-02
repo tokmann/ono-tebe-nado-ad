@@ -203,9 +203,9 @@
 /* Секция "Об аукционе" */
 .about {
   display: grid;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 350px 1fr;
   gap: 25px;
-  padding: 0 50px 180px;
+  padding: 0 25px 180px;
 }
 
 .about__column {
